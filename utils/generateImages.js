@@ -27,10 +27,10 @@ puppeteer
     let tokenIds = [];
     if (process.argv && process.argv.length > 2) {
       if (process.argv.length > 3) {
-        let i = parseInt(process.argv[2], 10);
+        let i = parseInt(process.argv[2], 10)
         const max = parseInt(process.argv[3], 10)
         for (i; i <= max; i++) {
-          tokenIds.push(i);
+          tokenIds.push(i)
         }
       } else {
         tokenIds = [process.argv[2]]
@@ -44,7 +44,7 @@ puppeteer
     for (let i = 0; i < tokenIds.length; i++) {
       const id = tokenIds[i];
       /* eslint-disable no-await-in-loop */
-      await page.goto(`http://localhost:3001/token/${id}.html?imageMode=true`)
+      await page.goto(`http://localhost:3000/token/${id}.html?imageMode=true`)
       await wait(timeoutAfterLoad)
       await page.screenshot({ path: `./public/img/nfts/${id}.png` })
       /* eslint-enable no-await-in-loop */
