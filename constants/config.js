@@ -1,7 +1,7 @@
 const config = {
   name: 'Snakes on a chain by DEPT®', // project name
-  description: 'A research project for generating and running interactive NFTs.',
-  nftName: 'Chain Snake', // name for a single NFT (=> "Snake #42"), can be the same as the project name
+  description: 'A research project by DEPT® for generating and running interactive NFTs.',
+  nftName: 'Snake', // name for a single NFT (=> "Snake #42"), can be the same as the project name
   host: 'https://connectednft.art', // host URI
   externalUri: 'https://deptagency.com', // optional, link to project website
   royalty: {
