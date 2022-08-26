@@ -116,7 +116,6 @@ contract Snake is
      * token will be the concatenation of the `baseURI` and the `tokenId`.
      */
     function _baseURI() internal view virtual override returns (string memory) {
-        // TODO: metadata url
-        return "https://polywars.space/api/137/ship/";
+        return "https://connectednft.art/token/";
     }
 }
