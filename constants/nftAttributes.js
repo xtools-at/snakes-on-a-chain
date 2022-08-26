@@ -1,0 +1,82 @@
+// TODO: Docs
+// https://docs.opensea.io/docs/metadata-standards
+
+const nftAttributes = [
+  {
+    trait_type: 'Snake Color',
+    value: [
+      'YellowGreen',
+      'SpringGreen',
+      'Turquoise',
+      'Teal',
+      'SeaGreen',
+      'PaleGreen',
+      'Olive',
+      'OliveDrab',
+      'LimeGreen',
+      'LightGreen',
+      'LawnGreen',
+      'Green',
+      'GreenYellow',
+      'MediumAquaMarine',
+    ],
+  },
+  {
+    trait_type: 'Background Color',
+    value: [
+      'SlateGrey',
+      'Snow',
+      'Silver',
+      'SeaShell',
+      'AliceBlue',
+      'Azure',
+      'Cornsilk',
+      'DarkGrey',
+      'DimGrey',
+      'Gainsboro',
+      'Grey',
+      'Lavender',
+      'LightGrey',
+      'MintCream',
+      'WhiteSmoke',
+      'PeachPuff',
+      'Black',
+      'LightSlateGrey',
+    ],
+  },
+  {
+    trait_type: 'Food Color',
+    value: [
+      'Tomato',
+      'SteelBlue',
+      'SkyBlue',
+      'Purple',
+      'Orchid',
+      'Navy',
+      'RoyalBlue',
+      'Magenta',
+      'Salmon',
+      'CornflowerBlue',
+      'Coral',
+      'Crimson',
+      'GoldenRod',
+      'HotPink',
+      'Orange',
+      'OrangeRed',
+      'RebeccaPurple',
+    ],
+  },
+  {
+    trait_type: 'Game Difficulty',
+    value: [70, 80, 90, 100, 110, 120, 130, 140],
+    display_type: 'boost_percentage',
+  },
+  {
+    trait_type: 'Series',
+    value: 1,
+    display_type: 'number',
+    max_value: 1,
+  },
+]
+
+export default nftAttributes

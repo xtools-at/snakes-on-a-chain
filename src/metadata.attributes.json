@@ -1,0 +1,2502 @@
+{
+  "0": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "GoldenRod"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "1": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LightGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "2": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "3": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "GoldenRod"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "4": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightSlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "5": [
+    {
+      "trait_type": "Snake Color",
+      "value": "OliveDrab"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "6": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "7": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LightGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DimGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "8": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "9": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightSlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "10": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SpringGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "PeachPuff"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "11": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "12": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DarkGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Orchid"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "13": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "PeachPuff"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "14": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "PeachPuff"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "15": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "16": [
+    {
+      "trait_type": "Snake Color",
+      "value": "OliveDrab"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "17": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LightGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "18": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "19": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "20": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "21": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SeaShell"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "22": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "23": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "24": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SpringGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DarkGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "25": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Orchid"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "26": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "27": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "28": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DarkGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "29": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "30": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RoyalBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "31": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DimGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "32": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "33": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SpringGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "34": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LightGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "AliceBlue"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "35": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "36": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "37": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "38": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "39": [
+    {
+      "trait_type": "Snake Color",
+      "value": "OliveDrab"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "40": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "41": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SeaShell"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "42": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "43": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "44": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Orchid"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "45": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "46": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "47": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "48": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "OrangeRed"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "49": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "50": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SpringGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "51": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "52": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "53": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "54": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "GoldenRod"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "55": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "56": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DarkGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RoyalBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "57": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "58": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "59": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "60": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "61": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "62": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "63": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "64": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DimGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RoyalBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "65": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "66": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "67": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Snow"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "68": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "OrangeRed"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "69": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "70": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "AliceBlue"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "71": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "72": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "73": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "74": [
+    {
+      "trait_type": "Snake Color",
+      "value": "YellowGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "75": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Teal"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "OrangeRed"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "76": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "77": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "OrangeRed"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "78": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightSlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RoyalBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "79": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "GoldenRod"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "80": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "81": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "82": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Orange"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "83": [
+    {
+      "trait_type": "Snake Color",
+      "value": "SeaGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "84": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "85": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "86": [
+    {
+      "trait_type": "Snake Color",
+      "value": "MediumAquaMarine"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "SeaShell"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Navy"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "87": [
+    {
+      "trait_type": "Snake Color",
+      "value": "OliveDrab"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "WhiteSmoke"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "88": [
+    {
+      "trait_type": "Snake Color",
+      "value": "OliveDrab"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "HotPink"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "89": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Gainsboro"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "RebeccaPurple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "90": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "MintCream"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "91": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Olive"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Lavender"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "92": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Green"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Grey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SkyBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 110,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "93": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LawnGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "CornflowerBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "94": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "95": [
+    {
+      "trait_type": "Snake Color",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Magenta"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 90,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "96": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "LightSlateGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "SteelBlue"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 120,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "97": [
+    {
+      "trait_type": "Snake Color",
+      "value": "LimeGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "DimGrey"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "98": [
+    {
+      "trait_type": "Snake Color",
+      "value": "GreenYellow"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Cornsilk"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Salmon"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 80,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ],
+  "99": [
+    {
+      "trait_type": "Snake Color",
+      "value": "PaleGreen"
+    },
+    {
+      "trait_type": "Background Color",
+      "value": "Azure"
+    },
+    {
+      "trait_type": "Food Color",
+      "value": "Coral"
+    },
+    {
+      "trait_type": "Game Difficulty",
+      "value": 100,
+      "display_type": "boost_percentage"
+    },
+    {
+      "trait_type": "Series",
+      "value": 1,
+      "display_type": "number",
+      "max_value": 1
+    }
+  ]
+}
