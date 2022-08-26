@@ -1,5 +1,11 @@
-// TODO: Docs
-// https://docs.opensea.io/docs/metadata-standards
+/**
+ * Add your NFT attribute schema here!
+ * Set the `value` of any attribute to an array of possible values to be used with
+ * the `yarn meta` command, to generate new random instances instantly.
+ * Setting it to anything else creates a static attribute with that value.
+ *
+ * See also https://docs.opensea.io/docs/metadata-standards
+ */
 
 const nftAttributes = [
   {
