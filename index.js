@@ -21,6 +21,7 @@ server.use(helmet({
   contentSecurityPolicy: false,
   dnsPrefetchControl: false,
   crossOriginResourcePolicy: false,
+  crossOriginEmbedderPolicy: false,
 }))
 
 // gzip
