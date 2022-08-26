@@ -18,10 +18,9 @@ server.disable('x-powered-by')
 // helmet
 server.use(helmet({
   frameguard: false,
-  expectCt: true,
-  referrerPolicy: true,
   contentSecurityPolicy: false,
   dnsPrefetchControl: false,
+  crossOriginResourcePolicy: false,
 }))
 
 // gzip
