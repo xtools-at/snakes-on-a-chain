@@ -58,19 +58,27 @@ export const renderHtml = (id) => {
     }
   }
 
+  // transform token attribute metadata to params for our game-script
   const attributes = getJsonAttributes(id);
+  let gameParams;
+  const paramTransformationRules = {
+    'Snake Color': 'snakeColor',
+    'Background Color': 'backgroundColor',
+    'Food Color': 'foodColor',
+    'Game Difficulty': 'speed',
+  }
 
-  let gameParams = null;
   if (attributes) {
     gameParams = {}
     attributes.forEach((entry) => {
-      if (entry.trait_type === 'Snake Color') gameParams.snakeColor = entry.value;
-      else if (entry.trait_type === 'Background Color') gameParams.backgroundColor = entry.value;
-      else if (entry.trait_type === 'Food Color') gameParams.foodColor = entry.value;
-      else if (entry.trait_type === 'Game Difficulty') gameParams.speed = entry.value;
+      const paramName = paramTransformationRules[entry.trait_type]
+      if (paramName) {
+        gameParams[paramName] = entry.value
+      }
     })
   }
 
+  // replace placeholders in the html template
   const replacements = [
     {
       key: /%%TITLE%%/g,
