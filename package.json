@@ -1,0 +1,32 @@
+{
+  "name": "snakes-on-chain",
+  "version": "1.00",
+  "description": "interactive nft demo",
+  "main": "index.js",
+  "author": "Martin Kainzbauer <m.kainzbauer@deptagency.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "meta": "node ./utils/generateMetadata.js",
+    "images": "node ./utils/generateImages.js"
+  },
+  "engines": {
+    "node": ">=16.13.1",
+    "yarn": "^1.22.17"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.7.1",
+    "puppeteer": "^16.2.0"
+  }
+}
