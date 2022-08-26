@@ -3,7 +3,7 @@
 /** setup */
 const canvas = document.getElementById('canvas')
 const context = canvas.getContext('2d')
-const sizes = [256, 384, 512, 640, 768]
+const sizes = [256, 384, 496, 512, 640, 768]
 const fields = 16
 let canvasSize
 let box
@@ -129,6 +129,7 @@ function startTouch(e) {
 }
 
 function moveTouch(e) {
+  e.preventDefault()
   if (isSnakeOffScreen()) return
   if (swipeInitialX === null) return
   if (swipeInitialY === null) return
@@ -153,11 +154,10 @@ function moveTouch(e) {
 
   swipeInitialX = null
   swipeInitialY = null
-
-  e.preventDefault()
 }
 
 function moveKeyboard(event) {
+  event.preventDefault();
   if (isSnakeOffScreen()) return;
   if (event.keyCode === 37 && direction !== 'right') direction = 'left'
   else if (event.keyCode === 38 && direction !== 'down') direction = 'up'
