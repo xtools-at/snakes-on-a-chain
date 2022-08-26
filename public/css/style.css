@@ -1,0 +1,29 @@
+/* fonts */
+@font-face {
+  font-family: 'PressStart2P';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/ps2p.woff2) format('woff2');
+}
+
+html,
+body,
+pre,
+code,
+kbd,
+samp {
+  font-family: 'PressStart2P';
+}
+
+body {
+  background-color: transparent;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
