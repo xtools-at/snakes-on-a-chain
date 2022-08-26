@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>%%NFT_NAME%% #%%ID%% - %%TITLE%%</title>
+  <meta name="description" content="%%DESCRIPTION%%"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="format-detection" content="telephone=no" />
+
+  <meta property="og:site_name" content="%%TITLE%%">
+  <meta property="og:title" content="%%NFT_NAME%% #%%ID%">
+  <meta property="og:description" content="%%DESCRIPTION%%">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="%%HOST%%/token/%%ID%%.html">
+  <meta property="og:image" content="%%HOST%%/img/nfts/%%ID%%.png">
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="%%NFT_NAME%% #%%ID%"/>
+  <meta name="twitter:description" content="%%DESCRIPTION%%"/>
+  <meta name="twitter:image:src" content="%%HOST%%/img/nfts/%%ID%%.png"/>
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any"/>
+  <link rel="icon" href="/img/icon.svg" type="image/svg+xml"/>
+  <link rel="icon" href="/img/icon.png" type="image/png" sizes="512x512"/>
+  <link rel="apple-touch-icon" href="/img/icon.png"/>
+
+  <link rel="stylesheet" href="/css/normalize.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+</head>
+
+<body>
+
+  <section id="app">
+    <canvas id="canvas" width="512" height="512"></canvas>
+  </section>
+
+  <script>
+    var params = %%PARAMS%%
+  </script>
+  <script defer src="/js/app.js"></script>
+
+</body>
+
+</html>
