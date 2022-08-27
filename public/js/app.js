@@ -101,8 +101,20 @@ function draw() {
 }
 
 function placeFood() {
-  food.x = Math.floor(Math.random() * (fields - 1) + 1) * box
-  food.y = Math.floor(Math.random() * (fields - 1) + 1) * box
+  let overlap = true
+  // eslint-disable-next-line no-restricted-syntax,no-labels
+  label:
+  while (overlap) {
+    food.x = Math.floor(Math.random() * (fields - 1) + 1) * box
+    food.y = Math.floor(Math.random() * (fields - 1) + 1) * box
+    for (let i = 1; i < snake.length; i++) {
+      if (food.x === snake[i].x && food.y === snake[i].y) {
+        // eslint-disable-next-line no-continue,no-labels
+        continue label
+      }
+    }
+    overlap = false
+  }
 }
 
 function isSnakeOffScreen() {
