@@ -9,11 +9,12 @@ let canvasSize
 let box
 let boxSize
 let game
+let firstGame = true
 let gameOver = false
 let direction = 'right'
 let swipeInitialX
 let swipeInitialY
-const snake = []
+let snake = []
 const food = {
   x: 1,
   y: 1,
@@ -64,17 +65,24 @@ function drawGameOver() {
   const space = 30
 
   context.font = '20px PressStart2P'
-  context.fillStyle = settings.snakeColor
+  context.fillStyle = 'black'
   context.fillText('GAME OVER', space, space + 16)
 
   context.font = '16px PressStart2P'
-  context.fillStyle = settings.snakeColor
+  context.fillStyle = 'black'
   // eslint-disable-next-line prefer-template
   context.fillText('Score: ' + snake.length, space, space + 16 + space / 2 + 12)
 
   context.font = '10px PressStart2P'
-  context.fillStyle = settings.snakeColor
+  context.fillStyle = 'black'
   context.fillText('Click anywhere to restart', space, space + 16 + space / 2 + 12 + space / 2 + 7)
+}
+
+function drawStartGame() {
+  const space = 30
+  context.font = '10px PressStart2P'
+  context.fillStyle = 'black'
+  context.fillText('Click anywhere to Start', space, space + 16 + space / 2 + 12 + space / 2 + 7)
 }
 
 function draw() {
@@ -101,13 +109,18 @@ function setCanvasSize() {
   canvas.height = canvasSize
   box = canvasSize / fields
   boxSize = box - fields / 8
-
-  if (!gameOver) placeFood()
-  draw()
-  if (gameOver) drawGameOver()
+  if (firstGame) {
+    drawBackground()
+    drawStartGame()
+  } else {
+    if (!gameOver) placeFood()
+    draw()
+    if (gameOver) drawGameOver()
+  }
 }
 
 setCanvasSize()
+
 snake.push({
   x: (fields / 2) * box,
   y: (fields / 2) * box,
@@ -159,10 +172,10 @@ function moveTouch(e) {
 function moveKeyboard(event) {
   event.preventDefault();
   if (isSnakeOffScreen()) return;
-  if (event.keyCode === 37 && direction !== 'right') direction = 'left'
-  else if (event.keyCode === 38 && direction !== 'down') direction = 'up'
-  else if (event.keyCode === 39 && direction !== 'left') direction = 'right'
-  else if (event.keyCode === 40 && direction !== 'up') direction = 'down'
+  if ((event.keyCode === 37 || event.keyCode === 65) && direction !== 'right') direction = 'left'
+  else if ((event.keyCode === 38 || event.keyCode === 87) && direction !== 'down') direction = 'up'
+  else if ((event.keyCode === 39 || event.keyCode === 68) && direction !== 'left') direction = 'right'
+  else if ((event.keyCode === 40 || event.keyCode === 83) && direction !== 'up') direction = 'down'
 }
 
 function checkGameOver() {
@@ -226,15 +239,27 @@ function startGame(speed) {
   game = setInterval(loopGame, speed)
 }
 
-function restartGameOver() {
-  if (gameOver) window.location.reload()
+function gameInit() {
+  if (firstGame) {
+    firstGame = false
+    setCanvasSize()
+    startGame(settings.speed)
+  }
+  if (gameOver) {
+    gameOver = false
+    snake = []
+    snake.push({
+      x: (fields / 2) * box,
+      y: (fields / 2) * box,
+    })
+    setCanvasSize()
+    startGame(settings.speed)
+  }
 }
 
 // event listeners
 document.addEventListener('keydown', moveKeyboard)
 document.addEventListener('touchstart', startTouch)
 document.addEventListener('touchmove', moveTouch)
-document.addEventListener('click', restartGameOver)
+document.addEventListener('click', gameInit)
 window.addEventListener('resize', setCanvasSize)
-
-startGame(settings.speed)
