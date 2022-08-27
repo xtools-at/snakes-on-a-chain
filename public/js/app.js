@@ -13,6 +13,8 @@ let firstGame = true
 let gameOver = false
 let direction = 'right'
 let swipeInitialX
+let highScore = 0
+let newHighScore = false
 let swipeInitialY
 let snake = []
 const food = {
@@ -63,19 +65,26 @@ function drawFood() {
 
 function drawGameOver() {
   const space = 30
+  context.fillStyle = 'black'
 
   context.font = '20px PressStart2P'
-  context.fillStyle = 'black'
   context.fillText('GAME OVER', space, space + 16)
 
   context.font = '16px PressStart2P'
-  context.fillStyle = 'black'
-  // eslint-disable-next-line prefer-template
-  context.fillText('Score: ' + snake.length, space, space + 16 + space / 2 + 12)
-
-  context.font = '10px PressStart2P'
-  context.fillStyle = 'black'
-  context.fillText('Click anywhere to restart', space, space + 16 + space / 2 + 12 + space / 2 + 7)
+  if (newHighScore) {
+    // eslint-disable-next-line prefer-template
+    context.fillText('NEW HIGH SCORE: ' + snake.length, space, space + 16 + space / 2 + 12)
+    newHighScore = false
+    context.font = '10px PressStart2P'
+    context.fillText('Click anywhere to restart', space, space + 16 + space / 2 + 12 + space / 2 + 7)
+  } else {
+    // eslint-disable-next-line prefer-template
+    context.fillText('Score: ' + snake.length, space, space + 16 + space / 2 + 12)
+    // eslint-disable-next-line prefer-template
+    context.fillText('High Score: ' + highScore, space, space + 16 + space / 2 + 12 + space / 2 + 12)
+    context.font = '10px PressStart2P'
+    context.fillText('Click anywhere to restart', space, space + 16 + space / 2 + 12 + space / 2 + 12 + space / 2 + 7)
+  }
 }
 
 function drawStartGame() {
@@ -146,7 +155,6 @@ function moveTouch(e) {
   if (isSnakeOffScreen()) return
   if (swipeInitialX === null) return
   if (swipeInitialY === null) return
-
   const currentX = e.touches[0].clientX;
   const currentY = e.touches[0].clientY;
 
@@ -183,7 +191,10 @@ function checkGameOver() {
     if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) {
       clearInterval(game);
       gameOver = true
-
+      if (snake.length > highScore) {
+        highScore = snake.length
+        newHighScore = true
+      }
       drawGameOver();
 
       return true
