@@ -270,17 +270,18 @@ function moveTouch(e) {
 }
 
 function moveKeyboard(e) {
-  e.preventDefault();
-  if (isSnakeOffScreen()) return;
+  e.preventDefault()
+  if (isSnakeOffScreen()) return
   if ((e.keyCode === 37 || e.keyCode === 65) && direction !== 'right') direction = 'left'
   else if ((e.keyCode === 38 || e.keyCode === 87) && direction !== 'down') direction = 'up'
   else if ((e.keyCode === 39 || e.keyCode === 68) && direction !== 'left') direction = 'right'
   else if ((e.keyCode === 40 || e.keyCode === 83) && direction !== 'up') direction = 'down'
+  else if (gameOver && [27, 32, 13, 8].indexOf(e.keyCode) > -1) {
+    // restart game with keyboard (esc, space, enter, backspace)
+    initGame()
+  }
   if (!gameOver) {
     loopGame()
-  } else {
-    // restart game with keyboard
-    initGame()
   }
 }
 
@@ -295,7 +296,7 @@ document.addEventListener('touchmove', moveTouch)
 canvas.addEventListener('click', initGame)
 window.addEventListener('resize', setCanvasSize)
 
-// make snake longer from the beginning for static image generation
+// start game and make snake longer from the beginning for static image generation
 if (window.location.search.indexOf('imageMode') > -1) {
   initGame()
   for (let i = 0; i < 5; i++) {
