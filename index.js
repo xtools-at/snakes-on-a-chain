@@ -1,6 +1,7 @@
 import express from 'express'
 import compression from 'compression'
 import helmet from 'helmet'
+import cors from 'cors'
 import {
   getJsonAttributes,
   getContractMetadata,
@@ -22,6 +23,13 @@ server.use(helmet({
   dnsPrefetchControl: false,
   crossOriginResourcePolicy: false,
   crossOriginEmbedderPolicy: false,
+}))
+
+// cors
+server.use(cors({
+  origin: '*',
+  credentials: true,
+  optionSuccessStatus: 200,
 }))
 
 // gzip
