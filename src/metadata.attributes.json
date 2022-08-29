@@ -14,7 +14,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -64,7 +64,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -189,7 +189,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -239,7 +239,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -264,7 +264,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -289,7 +289,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -314,7 +314,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -339,7 +339,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -364,7 +364,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -389,7 +389,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -414,7 +414,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -439,7 +439,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -464,7 +464,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -489,7 +489,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -514,7 +514,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -539,7 +539,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -564,7 +564,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -589,7 +589,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -614,7 +614,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -639,7 +639,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -689,7 +689,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -714,7 +714,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -739,7 +739,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -764,7 +764,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -789,7 +789,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -814,7 +814,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -839,7 +839,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -864,7 +864,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -889,7 +889,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -914,7 +914,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -939,7 +939,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -989,7 +989,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1014,7 +1014,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1039,7 +1039,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -1064,7 +1064,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1089,7 +1089,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1114,7 +1114,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1139,7 +1139,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1164,7 +1164,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1189,7 +1189,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1214,7 +1214,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1239,7 +1239,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1264,7 +1264,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1289,7 +1289,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1314,7 +1314,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1339,7 +1339,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1364,7 +1364,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1389,7 +1389,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1414,7 +1414,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -1439,7 +1439,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1464,7 +1464,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1489,7 +1489,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1514,7 +1514,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1539,7 +1539,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -1564,7 +1564,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1589,7 +1589,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1614,7 +1614,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1639,7 +1639,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1664,7 +1664,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1689,7 +1689,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1714,7 +1714,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -1739,7 +1739,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1764,7 +1764,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1789,7 +1789,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1814,7 +1814,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1839,7 +1839,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1864,7 +1864,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1889,7 +1889,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -1914,7 +1914,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1939,7 +1939,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -1964,7 +1964,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -1989,7 +1989,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -2014,7 +2014,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2039,7 +2039,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2064,7 +2064,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2089,7 +2089,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2114,7 +2114,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -2139,7 +2139,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -2164,7 +2164,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {
@@ -2189,7 +2189,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -2214,7 +2214,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -2239,7 +2239,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2264,7 +2264,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -2289,7 +2289,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -2314,7 +2314,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 110,
+      "value": -10,
       "display_type": "boost_percentage"
     },
     {
@@ -2339,7 +2339,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2364,7 +2364,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2389,7 +2389,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 90,
+      "value": 10,
       "display_type": "boost_percentage"
     },
     {
@@ -2414,7 +2414,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 120,
+      "value": -20,
       "display_type": "boost_percentage"
     },
     {
@@ -2439,7 +2439,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2464,7 +2464,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 80,
+      "value": 20,
       "display_type": "boost_percentage"
     },
     {
@@ -2489,7 +2489,7 @@
     },
     {
       "trait_type": "Game Difficulty",
-      "value": 100,
+      "value": 0,
       "display_type": "boost_percentage"
     },
     {

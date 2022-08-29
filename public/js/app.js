@@ -26,11 +26,11 @@ const food = {
 
 // eslint-disable-next-line no-undef
 const settings = typeof params !== 'undefined' && params ? params : {
-  speed: 100,
   foodColor: 'red',
   backgroundColor: 'black',
   snakeColor: 'green',
 }
+settings.speed = settings.speed != null ? 100 - settings.speed : 100
 
 function getCanvasSize() {
   const windowSize = Math.min(window.innerWidth, window.innerHeight)
@@ -279,6 +279,7 @@ function moveKeyboard(e) {
   if (!gameOver) {
     loopGame()
   } else {
+    // restart game with keyboard
     initGame()
   }
 }
