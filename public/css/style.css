@@ -16,6 +16,7 @@ samp {
   font-family: 'PressStart2P';
 }
 
+html,
 body {
   background-color: transparent;
   width: 100vw;
