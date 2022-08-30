@@ -7,13 +7,19 @@ const context = canvas.getContext('2d')
 const sizes = [256, 384, 496, 512, 640, 768]
 const fields = 16
 const space = 30
+const directions = {
+  RIGHT: 'right',
+  LEFT: 'left',
+  UP: 'up',
+  DOWN: 'down',
+}
 let canvasSize
 let box
 let boxSize
 let game
 let firstGame = true
 let gameOver = false
-let direction = 'right'
+let direction = directions.RIGHT
 let swipeInitialX
 let swipeInitialY
 let highScore = 0
@@ -180,10 +186,10 @@ function moveSnake() {
   let snakeX = snake[0].x
   let snakeY = snake[0].y
 
-  if (direction === 'right') snakeX += box
-  else if (direction === 'left') snakeX -= box
-  else if (direction === 'up') snakeY -= box
-  else if (direction === 'down') snakeY += box
+  if (direction === directions.RIGHT) snakeX += box
+  else if (direction === directions.LEFT) snakeX -= box
+  else if (direction === directions.UP) snakeY -= box
+  else if (direction === directions.DOWN) snakeY += box
 
   if (snakeX !== food.x || snakeY !== food.y) {
     snake.pop()
@@ -202,10 +208,10 @@ function loopGame() {
   if (checkGameOver()) return
 
   if (isSnakeOffScreen()) {
-    if (direction === 'right') snake[0].x = 0
-    else if (direction === 'left') snake[0].x = fields * box
-    else if (direction === 'down') snake[0].y = 0
-    else if (direction === 'up') snake[0].y = fields * box
+    if (direction === directions.RIGHT) snake[0].x = 0
+    else if (direction === directions.LEFT) snake[0].x = fields * box
+    else if (direction === directions.UP) snake[0].y = fields * box
+    else if (direction === directions.DOWN) snake[0].y = 0
   }
 
   draw()
@@ -230,12 +236,26 @@ function initGame() {
     initSnake()
     placeFood()
     setCanvasSize()
-    direction = 'right'
+    direction = directions.RIGHT
     startGame(settings.speed)
   }
 }
 
-// touch handlers
+// input handlers
+function changeDirection(newDir) {
+  if (!newDir) return
+  if ((newDir === directions.RIGHT && direction !== directions.LEFT)
+    || (newDir === directions.LEFT && direction !== directions.RIGHT)
+    || (newDir === directions.UP && direction !== directions.DOWN)
+    || (newDir === directions.DOWN && direction !== directions.UP)) {
+    direction = newDir
+
+    if (!gameOver) {
+      loopGame()
+    }
+  }
+}
+
 function startTouch(e) {
   swipeInitialX = e.touches[0].clientX
   swipeInitialY = e.touches[0].clientY
@@ -254,34 +274,30 @@ function moveTouch(e) {
 
   if (Math.abs(diffX) > Math.abs(diffY)) {
     if (diffX > 0) {
-      direction = 'left'
+      changeDirection(directions.LEFT)
     } else {
-      direction = 'right'
+      changeDirection(directions.RIGHT)
     }
   } else if (diffY > 0) {
-    direction = 'up'
+    changeDirection(directions.UP)
   } else {
-    direction = 'down'
+    changeDirection(directions.DOWN)
   }
 
   swipeInitialX = null
   swipeInitialY = null
-  if (!gameOver) loopGame()
 }
 
 function moveKeyboard(e) {
   e.preventDefault()
   if (isSnakeOffScreen()) return
-  if ((e.keyCode === 37 || e.keyCode === 65) && direction !== 'right') direction = 'left'
-  else if ((e.keyCode === 38 || e.keyCode === 87) && direction !== 'down') direction = 'up'
-  else if ((e.keyCode === 39 || e.keyCode === 68) && direction !== 'left') direction = 'right'
-  else if ((e.keyCode === 40 || e.keyCode === 83) && direction !== 'up') direction = 'down'
+  if ([37, 65].indexOf(e.keyCode) > -1) changeDirection(directions.LEFT)
+  else if ([38, 87].indexOf(e.keyCode) > -1) changeDirection(directions.UP)
+  else if ([39, 68].indexOf(e.keyCode) > -1) changeDirection(directions.RIGHT)
+  else if ([40, 83].indexOf(e.keyCode) > -1) changeDirection(directions.DOWN)
   else if (gameOver && [27, 32, 13, 8].indexOf(e.keyCode) > -1) {
     // restart game with keyboard (esc, space, enter, backspace)
     initGame()
-  }
-  if (!gameOver) {
-    loopGame()
   }
 }
 
