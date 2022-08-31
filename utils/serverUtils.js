@@ -81,7 +81,7 @@ export const renderHtml = (id) => {
   // replace placeholders in the html template
   const replacements = [
     {
-      key: /%%TITLE%%/g,
+      key: /%%NAME%%/g,
       value: config.name,
     },
     {
