@@ -1,10 +1,22 @@
-// forked from https://github.com/lucasrmagalhaes/snake-js
-/* eslint-disable prefer-template, consistent-return, prefer-arrow-callback, func-names */
+// forked from https://github.com/lucasrmagalhaes/snake-js (MIT)
+/* eslint-disable prefer-template, consistent-return, prefer-arrow-callback */
+/* eslint-disable func-names, no-multiple-empty-lines */
+
+
+/** get input params */
+
+const settings = window && window.inputParams ? window.inputParams : {
+  foodColor: 'red',
+  backgroundColor: 'black',
+  snakeColor: 'green',
+}
+settings.speed = settings.speed != null ? 100 - settings.speed : 100
+
 
 /** setup */
+
 const canvas = document.getElementById('canvas')
 const context = canvas.getContext('2d')
-const sizes = [256, 384, 496, 512, 640, 768]
 const fields = 16
 const space = 30
 const directions = {
@@ -13,7 +25,6 @@ const directions = {
   UP: 'up',
   DOWN: 'down',
 }
-let canvasSize
 let box
 let boxSize
 let game
@@ -30,37 +41,9 @@ const food = {
   y: -1,
 }
 
-// eslint-disable-next-line no-undef
-const settings = typeof params !== 'undefined' && params ? params : {
-  foodColor: 'red',
-  backgroundColor: 'black',
-  snakeColor: 'green',
-}
-settings.speed = settings.speed != null ? 100 - settings.speed : 100
 
-function getCanvasSize() {
-  const windowSize = Math.min(window.innerWidth, window.innerHeight)
-  let size;
+/** canvas draw methods */
 
-  for (let i = 0; i < sizes.length; i++) {
-    if (windowSize >= sizes[i]) {
-      size = sizes[i]
-    } else {
-      break
-    }
-  }
-
-  return size || sizes[0];
-}
-
-function initSnake() {
-  snake = [{
-    x: (fields / 4) * box,
-    y: (fields / 2) * box,
-  }]
-}
-
-// draw methods
 function drawBackground() {
   context.fillStyle = settings.backgroundColor
   context.fillRect(0, 0, fields * box, fields * box)
@@ -103,17 +86,20 @@ function drawGameOver() {
 
 function drawStartGame() {
   drawBackground()
-  context.font = '16px PressStart2P'
+  context.font = '12px PressStart2P'
   context.fillStyle = settings.foodColor
-  context.fillText('Click anywhere to start', space, space + 12)
+  context.fillText('Click anywhere to start', space, space + 10)
   drawSnake()
 }
 
-function draw() {
+function drawGame() {
   drawBackground()
   drawSnake()
   drawFood()
 }
+
+
+/** game helpers */
 
 function placeFood() {
   function getRandomCoords() {
@@ -129,6 +115,13 @@ function placeFood() {
   }
 }
 
+function initSnake() {
+  snake = [{
+    x: (fields / 4) * box,
+    y: (fields / 2) * box,
+  }]
+}
+
 function isSnakeOffScreen() {
   return (snake[0].x > (fields - 1) * box
     || snake[0].x < 0
@@ -136,34 +129,6 @@ function isSnakeOffScreen() {
     || snake[0].y < 0)
 }
 
-function setCanvasSize(e) {
-  canvasSize = getCanvasSize(canvas)
-  canvas.width = canvasSize
-  canvas.height = canvasSize
-  box = canvasSize / fields
-  boxSize = box - fields / 8
-
-  if (e && !gameOver) placeFood()
-
-  if (firstGame) {
-    drawBackground()
-    // preload font
-    context.font = '1px PressStart2P'
-    context.fillStyle = settings.backgroundColor
-    context.fillText('.', 0, 0)
-    // wait for font to load
-    setTimeout(function () {
-      initSnake()
-      drawStartGame()
-    }, 500)
-  } else if (gameOver) {
-    drawGameOver()
-  } else {
-    draw()
-  }
-}
-
-// game methods
 function checkGameOver() {
   for (let i = 1; i < snake.length; i++) {
     if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) {
@@ -204,6 +169,35 @@ function moveSnake() {
   })
 }
 
+
+/** main game methods */
+
+function setupCanvas(e) {
+  // set boundaries for game (16x16)
+  box = canvas.width / fields
+  boxSize = box - fields / 8
+
+  if (e && !gameOver) placeFood()
+
+  if (firstGame) {
+    drawBackground()
+    // preload font
+    context.font = '1px PressStart2P'
+    context.fillStyle = settings.backgroundColor
+    context.fillText('.', 0, 0)
+
+    // wait for font to load
+    setTimeout(function () {
+      initSnake()
+      drawStartGame()
+    }, 500)
+  } else if (gameOver) {
+    drawGameOver()
+  } else {
+    drawGame()
+  }
+}
+
 function loopGame() {
   if (checkGameOver()) return
 
@@ -214,7 +208,7 @@ function loopGame() {
     else if (direction === directions.DOWN) snake[0].y = 0
   }
 
-  draw()
+  drawGame()
   moveSnake()
 }
 
@@ -235,13 +229,12 @@ function initGame() {
     }
     initSnake()
     placeFood()
-    setCanvasSize()
+    setupCanvas()
     direction = directions.RIGHT
     startGame(settings.speed)
   }
 }
 
-// input handlers
 function changeDirection(newDir) {
   if (!newDir) return
   if ((newDir === directions.RIGHT && direction !== directions.LEFT)
@@ -255,6 +248,9 @@ function changeDirection(newDir) {
     }
   }
 }
+
+
+/** input handlers */
 
 function startTouch(e) {
   swipeInitialX = e.touches[0].clientX
@@ -301,18 +297,22 @@ function moveKeyboard(e) {
   }
 }
 
-// Control flow
-initSnake()
-setCanvasSize()
 
-// event listeners
+/** event listeners */
+canvas.addEventListener('click', initGame)
 document.addEventListener('keydown', moveKeyboard)
 document.addEventListener('touchstart', startTouch)
 document.addEventListener('touchmove', moveTouch)
-canvas.addEventListener('click', initGame)
-window.addEventListener('resize', setCanvasSize)
+window.addEventListener('resize', setupCanvas)
 
-// start game and make snake longer from the beginning for static image generation
+
+/** control flow */
+
+// game startup
+initSnake()
+setupCanvas()
+
+// static image generation mode: start game and make snake longer
 if (window.location.search.indexOf('imageMode') > -1) {
   initGame()
   for (let i = 0; i < 5; i++) {
