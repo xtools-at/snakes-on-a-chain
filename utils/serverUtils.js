@@ -2,8 +2,8 @@ import fs from 'fs'
 import path from 'path'
 import config from '../constants/config.js'
 
-let appHtml;
-let jsonAttributes;
+let appHtml
+let jsonAttributes
 
 export const getJsonAttributes = (id) => {
   if (!jsonAttributes) {
@@ -59,8 +59,8 @@ export const renderHtml = (id) => {
   }
 
   // transform token attribute metadata to params for our game-script
-  const attributes = getJsonAttributes(id);
-  let gameParams;
+  const attributes = getJsonAttributes(id)
+  let gameParams
   const paramTransformationRules = {
     'Snake Color': 'snakeColor',
     'Background Color': 'backgroundColor',
@@ -111,5 +111,5 @@ export const renderHtml = (id) => {
     html = html.replace(rule.key, rule.value)
   })
 
-  return html;
+  return html
 }

@@ -24,7 +24,7 @@ puppeteer
 
     const attributes = getJsonAttributes()
 
-    let tokenIds = [];
+    let tokenIds = []
     if (process.argv && process.argv.length > 2) {
       if (process.argv.length > 3) {
         let i = parseInt(process.argv[2], 10)
@@ -41,14 +41,14 @@ puppeteer
 
     console.log(`generating ${tokenIds.length} screenshots...`)
 
+    /* eslint-disable no-await-in-loop */
     for (let i = 0; i < tokenIds.length; i++) {
-      const id = tokenIds[i];
-      /* eslint-disable no-await-in-loop */
+      const id = tokenIds[i]
       await page.goto(`http://localhost:3000/token/${id}.html?imageMode=true`)
       await wait(timeoutAfterLoad)
       await page.screenshot({ path: `./public/img/nfts/${id}.png` })
-      /* eslint-enable no-await-in-loop */
     }
+    /* eslint-enable no-await-in-loop */
 
     await browser.close()
 

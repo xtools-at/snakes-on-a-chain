@@ -4,18 +4,18 @@ import path from 'path'
 import nftAttributes from '../constants/nftAttributes.js'
 
 const getRandomInt = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min) + min);
+  min = Math.ceil(min)
+  max = Math.floor(max)
+  return Math.floor(Math.random() * (max - min) + min)
 }
 
 const generateAttributes = (from, to) => {
   console.log(`generating ${to - from} metadata entries...`)
 
-  const data = {};
+  const data = {}
   // generate data
   for (let i = from; i <= to; i++) {
-    data[i] = [];
+    data[i] = []
 
     nftAttributes.forEach((entry) => {
       let { value } = entry
@@ -28,7 +28,7 @@ const generateAttributes = (from, to) => {
       data[i].push({
         ...entry,
         value,
-      });
+      })
     })
   }
 
