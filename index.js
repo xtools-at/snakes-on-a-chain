@@ -8,6 +8,7 @@ import {
   getNftMetadata,
   renderHtml,
 } from './utils/serverUtils.js'
+import cache from './utils/cacheMiddleware.js'
 import config from './constants/config.js'
 
 const port = parseInt(process.env.PORT, 10) || 3000
@@ -48,11 +49,11 @@ if (config.externalUri) {
 }
 
 // contract metadata routes
-server.get('/token/contract.json', (req, res) => {
+server.get('/token/contract.json', cache(config.metadataCacheTtl), (req, res) => {
   return res.type('json').send(JSON.stringify(getContractMetadata(), null, 2))
 })
 
-server.get('/token/:id.json', (req, res) => {
+server.get('/token/:id.json', cache(config.metadataCacheTtl), (req, res) => {
   const { id } = req.params
   if (!getJsonAttributes(id)) {
     return res.status(404).send('404 - Not found')
@@ -61,7 +62,7 @@ server.get('/token/:id.json', (req, res) => {
 })
 
 //
-server.get('/token/:id.html', (req, res) => {
+server.get('/token/:id.html', cache(config.contentCacheTtl), (req, res) => {
   const { id } = req.params
   if (!getJsonAttributes(id)) {
     return res.status(404).send('404 - Not found')
