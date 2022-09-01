@@ -299,6 +299,7 @@ function moveKeyboard(e) {
 
 
 /** event listeners */
+
 canvas.addEventListener('click', initGame)
 document.addEventListener('keydown', moveKeyboard)
 document.addEventListener('touchstart', startTouch)

@@ -1,4 +1,4 @@
-/* fonts */
+/** fonts */
 @font-face {
   font-family: 'PressStart2P';
   font-style: normal;
@@ -16,6 +16,7 @@ samp {
   font-family: 'PressStart2P';
 }
 
+/** centered fullscreen content */
 html,
 body {
   background-color: transparent;
