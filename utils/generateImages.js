@@ -1,8 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import puppeteer from 'puppeteer'
 import { getJsonAttributes } from './serverUtils.js'
-
-const timeoutAfterLoad = 700
+import config from '../constants/config.js'
 
 const wait = (ms) => {
   return new Promise((resolve) => {
@@ -14,8 +13,8 @@ puppeteer
   .launch({
     headless: true,
     defaultViewport: {
-      width: 512,
-      height: 512,
+      width: config.screenshotSize,
+      height: config.screenshotSize,
     },
   })
   .then(async (browser) => {
@@ -45,7 +44,7 @@ puppeteer
     for (let i = 0; i < tokenIds.length; i++) {
       const id = tokenIds[i]
       await page.goto(`http://localhost:3000/token/${id}.html?imageMode=true`)
-      await wait(timeoutAfterLoad)
+      await wait(config.waitBeforeScreenshot)
       await page.screenshot({ path: `./public/img/nfts/${id}.png` })
     }
     /* eslint-enable no-await-in-loop */

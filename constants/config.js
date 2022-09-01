@@ -16,6 +16,12 @@ const config = {
   cache: process.env.NODE_ENV === 'production', // enabled only on production by default
   metadataCacheTtl: 2 * 60 * 60, // TTL in seconds
   contentCacheTtl: 60 * 60, // TTL in seconds
+
+  /** static image generation */
+  screenshotSize: 512, // in px
+  // wait time before creating static image from dynamic content.
+  // setting this too low may result in blank images, keep >= 25ms at least.
+  waitBeforeScreenshot: 700, // in ms
 }
 
 export default config
