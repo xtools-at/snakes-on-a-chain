@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import fs from 'fs'
 import path from 'path'
-import nftAttributes from '../constants/nftAttributes.js'
+import nftAttributes from '../src/nftAttributes.js'
 
 const getRandomInt = (min, max) => {
   min = Math.ceil(min)

@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
 
-contract Snake is
+contract NFT is
     ERC721Royalty,
     AccessControl,
     Ownable
@@ -116,6 +116,6 @@ contract Snake is
      * token will be the concatenation of the `baseURI` and the `tokenId`.
      */
     function _baseURI() internal view virtual override returns (string memory) {
-        return "https://connectednft.art/token/";
+        return "https://snakes.connectednft.art/token/";
     }
 }

@@ -314,12 +314,14 @@ initSnake()
 setupCanvas()
 
 // static image generation mode: start game and make snake longer
-if (window.location.search.indexOf('imageMode') > -1) {
+if (window.location.search.indexOf('imageMode=true') > -1) {
   initGame()
-  for (let i = 0; i < 5; i++) {
-    snake.push({
-      x: snake[i].x - 1,
-      y: snake[i].y - 1,
-    })
-  }
+  setTimeout(function () {
+    for (let i = 0; i < 5; i++) {
+      snake.push({
+        x: snake[i].x - 1,
+        y: snake[i].y,
+      })
+    }
+  }, 500)
 }

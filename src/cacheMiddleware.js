@@ -1,5 +1,5 @@
 import memoryCache from 'memory-cache'
-import config from '../constants/config.js'
+import config from './config.js'
 
 const cache = (durationInSeconds) => (req, res, next) => {
   // check if enabled
@@ -7,7 +7,7 @@ const cache = (durationInSeconds) => (req, res, next) => {
 
   // sanitize input
   const duration = durationInSeconds != null ? durationInSeconds : 60
-  if (duration <= 0) return next()
+  if (duration < 1) return next()
 
   // add headers for browser caching
   try {

@@ -5,25 +5,30 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
+const config = require("../../src/config");
 
-const numTokensToMint = 50;
+const numTokensToMint = config.nftsToMint || 50;
 
 async function main() {
   const [deployer] = await hre.ethers.getSigners();
   console.log("Deploying contract with the account:", deployer.address);
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const Snake = await hre.ethers.getContractFactory("Snake");
-  const snake = await Snake.connect(deployer).deploy();
+  const NFT = await hre.ethers.getContractFactory("NFT");
+  const nft = await NFT.connect(deployer).deploy();
 
-  console.log("Contract address:", snake.address);
+  console.log("Contract address:", nft.address);
 
-  await snake.deployed();
+  await nft.deployed();
 
-  const mintTx = await snake.mintMulti(deployer.address, numTokensToMint);
-  const receipt = await mintTx.wait();
+  if (numTokensToMint > 0) {
+    const mintTx = await nft.mintMulti(deployer.address, numTokensToMint);
+    const receipt = await mintTx.wait();
 
-  console.log(`Minted ${numTokensToMint} tokens for ${deployer.address}, txHash: ${receipt.transactionHash}`)
+    console.log(`Minted ${numTokensToMint} tokens for ${deployer.address}, txHash: ${receipt.transactionHash}`)
+  }
+
+  console.log("Contract deployment finished");
 }
 
 // We recommend this pattern to be able to use async/await everywhere

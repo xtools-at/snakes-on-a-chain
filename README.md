@@ -1,5 +1,5 @@
 # Snakes on a chain
-A research project for generating and running interactive NFTs.
+A research project for generating and running interactive NFTs. See it in action on [OpenSea](https://testnets.opensea.io/collection/snakes-on-a-chain-by-dept).
 
 ## What it does
 - boilerplate for your interactive NFT project
@@ -9,10 +9,10 @@ A research project for generating and running interactive NFTs.
 
 ## Quickstart
 - run `yarn`
-- update `constants/config.js` with your own values
+- update `src/config.js` with your own values
 - add your own icons (`public/favicons.ico`, `public/img/icon.svg`, `public/img/icon.png`)
-- add your NFT's attribute schema in `constants/nftAttributes.js` (see comments in file)
-- generate attribute metadata JSON (`yarn meta [from ID] [to ID]`)
+- add your NFT's attribute schema in `src/nftAttributes.js` (see comments in file)
+- generate attribute metadata JSON (`yarn meta [from ID] [to ID]` or `yarn meta 2,4,8,16`)
   - review it and tweak it to your liking
   - rename the generated JSON file to `metadata.attributes.json`
 - create your own dynamic content (access via `localhost:3000/token/1.html`)
@@ -24,3 +24,16 @@ A research project for generating and running interactive NFTs.
   - start server before doing so with `yarn dev`
 - double-check the output of your metadata endpoints: `localhost:3000/token/1.json` and `localhost:3000/token/contract.json`
 - deploy to any NodeJS host
+
+
+## Smart contracts
+- setup `.env` file with your wallet mnemonic (wallet must have funds to pay for gas)
+- update strings in `contracts/NFT.sol` to match your token and host (-> name, symbol, baseURI)
+- check `hardhat.config.js` for available network configurations
+- deploy contract:
+```
+cd contract
+yarn clean
+yarn compile
+yarn deploy [network name] # e.g. yarn deploy polygon
+```

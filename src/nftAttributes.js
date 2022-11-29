@@ -74,7 +74,7 @@ const nftAttributes = [
   },
   {
     trait_type: 'Game Difficulty',
-    value: [40, 30, 20, 10, 0, -10, -20, -30, -40],
+    value: [30, 20, 10, -10, -20, -30],
     display_type: 'boost_percentage',
   },
   {

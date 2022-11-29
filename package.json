@@ -9,8 +9,8 @@
   "scripts": {
     "dev": "node index.js",
     "start": "cross-env NODE_ENV=production node index.js",
-    "meta": "node ./utils/generateMetadata.js",
-    "images": "node ./utils/generateImages.js"
+    "meta": "node ./scripts/generateMetadata.js",
+    "images": "node ./scripts/generateImages.js"
   },
   "engines": {
     "node": ">=16.13.1",

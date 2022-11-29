@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import config from '../constants/config.js'
+import config from './config.js'
 
 let appHtml
 let jsonAttributes
@@ -31,7 +31,7 @@ export const getNftMetadata = (id) => {
     description: config.description,
     image: `${config.host}/img/nfts/${id}.png`,
     animation_url: `${config.host}/token/${id}.html`,
-    external_uri: `${config.host}/token/${id}.html`,
+    external_url: `${config.host}/token/${id}.html`,
     attributes: getJsonAttributes(id) || [],
   }
 }

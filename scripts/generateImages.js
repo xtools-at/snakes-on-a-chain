@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import puppeteer from 'puppeteer'
-import { getJsonAttributes } from './serverUtils.js'
-import config from '../constants/config.js'
+import { getJsonAttributes } from '../src/serverUtils.js'
+import config from '../src/config.js'
 
 const wait = (ms) => {
   return new Promise((resolve) => {
@@ -32,7 +32,7 @@ puppeteer
           tokenIds.push(i)
         }
       } else {
-        tokenIds = [process.argv[2]]
+        tokenIds = process.argv[2].split(',')
       }
     } else {
       tokenIds = Object.keys(attributes)

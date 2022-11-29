@@ -7,9 +7,9 @@ import {
   getContractMetadata,
   getNftMetadata,
   renderHtml,
-} from './utils/serverUtils.js'
-import cache from './utils/cacheMiddleware.js'
-import config from './constants/config.js'
+} from './src/serverUtils.js'
+import cache from './src/cacheMiddleware.js'
+import config from './src/config.js'
 
 const port = parseInt(process.env.PORT, 10) || 3000
 const server = express()
