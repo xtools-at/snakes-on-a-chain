@@ -5,13 +5,12 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const config = require("../../src/config");
 
-const numTokensToMint = config.nftsToMint || 50;
+const numTokensToMint = 1000;
 
 async function main() {
   const [deployer] = await hre.ethers.getSigners();
-  console.log("Deploying contract with the account:", deployer.address);
+  console.log("Deploying contract with account ", deployer.address);
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
   const NFT = await hre.ethers.getContractFactory("NFT");
