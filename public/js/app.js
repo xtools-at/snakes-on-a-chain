@@ -13,7 +13,7 @@ let settings = {
 const app = document.querySelector('#app')
 if (app && app.dataset.params) {
   try {
-    settings = JSON.parse(app.dataset.params)
+    settings = JSON.parse(app.dataset.params.replace(/'/g, '"'))
   } catch (e) {
     //
   }
