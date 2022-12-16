@@ -98,7 +98,7 @@ export const renderHtml = (id) => {
     },
     {
       key: /%%PARAMS%%/,
-      value: JSON.stringify(gameParams, null, 2),
+      value: JSON.stringify(gameParams),
     },
     {
       key: /%%HOST%%/g,

@@ -5,11 +5,20 @@
 
 /** get input params */
 
-const settings = window && window.inputParams ? window.inputParams : {
+let settings = {
   foodColor: 'red',
   backgroundColor: 'black',
   snakeColor: 'green',
 }
+const app = document.querySelector('#app')
+if (app && app.dataset.params) {
+  try {
+    settings = JSON.parse(app.dataset.params)
+  } catch (e) {
+    //
+  }
+}
+
 settings.speed = settings.speed != null ? 100 - settings.speed : 100
 
 

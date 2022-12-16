@@ -32,14 +32,9 @@
 
 <body>
 
-  <section id="app">
+  <section id="app" data-params='%%PARAMS%%''>
     <canvas id="canvas" width="500" height="500"></canvas>
   </section>
-
-  <script>
-    // injected params for interactive content
-    window.inputParams = %%PARAMS%%
-  </script>
 
   <script src="/js/canvas.js"></script>
   <script defer src="/js/app.js"></script>
