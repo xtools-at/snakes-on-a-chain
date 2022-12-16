@@ -79,9 +79,9 @@ const nftAttributes = [
   },
   {
     trait_type: 'Series',
-    value: 1,
+    value: 2,
     display_type: 'number',
-    max_value: 1,
+    max_value: 2,
   },
 ]
 
