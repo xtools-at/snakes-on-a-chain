@@ -30,7 +30,7 @@ export const getNftMetadata = (id) => {
     name: `${config.nftName} #${id}`,
     description: config.description,
     image: `${config.host}/img/nfts/${id}.png`,
-    animation_url: `${config.host}/token/${id}.html`,
+    // animation_url: `${config.host}/token/${id}.html`,
     external_url: `${config.host}/token/${id}.html`,
     attributes: getJsonAttributes(id) || [],
   }
