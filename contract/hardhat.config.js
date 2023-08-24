@@ -52,6 +52,11 @@ const networks = {
     url: "https://rpc.ankr.com/bsc_testnet_chapel",
     accounts,
   },
+  'beam-testnet': {
+    url: `https://subnets.avax.network/beam/testnet/rpc`,
+    chainId: 13337,
+    accounts: accounts(),
+  },
 
   /** public mainnets */
   ethereum: {
@@ -73,6 +78,11 @@ const networks = {
     chainId: 56,
     url: "https://rpc.ankr.com/bsc",
     accounts,
+  },
+  beam: {
+    url: `https://subnets.avax.network/beam/mainnet/rpc`,
+    chainId: 4337,
+    accounts: accounts(),
   },
 };
 

@@ -1,12 +1,10 @@
 const config = {
   /** base info */
-  name: 'Snakes on a chain by DEPT®', // project name
-  description: 'A research project by DEPT® for generating and running interactive NFTs.',
+  name: 'Snakes on a chain', // project name
+  description: 'A research project for generating and running interactive NFTs.',
   nftName: 'Snake', // name for a single NFT (=> "Snake #42"), can be the same as the project name
   host: 'https://snakes.connectednft.art', // host URI
   externalUri: 'https://github.com/deptagency/snakes-on-a-chain', // optional, link to project website
-  // the number of NFTs to mint initially when the contract is deployed.
-  nftsToMint: 1000,
 
   /** royalties */
   royalty: {

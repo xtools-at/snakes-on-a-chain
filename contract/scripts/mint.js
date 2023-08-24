@@ -6,19 +6,15 @@
 // global scope, and execute the script.
 const hre = require("hardhat");
 
-const numTokensToMint = 2000;
+const numTokensToMint = 100;
+const contractAddress = "0x1f419B9469D641D333805C4054CA3b65Af54d315";
 
 async function main() {
   const [deployer] = await hre.ethers.getSigners();
-  console.log("Deploying contract with account ", deployer.address);
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const NFT = await hre.ethers.getContractFactory("NFT");
-  const nft = await NFT.connect(deployer).deploy();
-
+  const nft = await hre.ethers.getContractAt("NFT", contractAddress, deployer);
   console.log("Contract address:", nft.address);
-
-  await nft.deployed();
 
   if (numTokensToMint > 0) {
     const mintTx = await nft.mintMulti(deployer.address, numTokensToMint);
@@ -27,7 +23,7 @@ async function main() {
     console.log(`Minted ${numTokensToMint} tokens for ${deployer.address}, txHash: ${receipt.transactionHash}`)
   }
 
-  console.log("Contract deployment finished");
+  console.log("Contract call finished");
 }
 
 // We recommend this pattern to be able to use async/await everywhere
