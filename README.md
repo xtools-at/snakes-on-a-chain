@@ -1,5 +1,5 @@
 # Snakes on a chain
-A research project for generating and running interactive NFTs. See it in action on [OpenSea](https://testnets.opensea.io/collection/snakes-on-a-chain-by-dept).
+A research project for generating and running interactive NFTs.
 
 ## What it does
 - boilerplate for your interactive NFT project

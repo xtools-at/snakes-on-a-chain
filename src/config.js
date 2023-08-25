@@ -4,7 +4,7 @@ const config = {
   description: 'A research project for generating and running interactive NFTs.',
   nftName: 'Snake', // name for a single NFT (=> "Snake #42"), can be the same as the project name
   host: 'https://snakes.connectednft.art', // host URI
-  externalUri: 'https://github.com/deptagency/snakes-on-a-chain', // optional, link to project website
+  externalUri: 'https://github.com/xtools-at/snakes-on-a-chain', // optional, link to project website
 
   /** royalties */
   royalty: {

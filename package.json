@@ -1,9 +1,9 @@
 {
   "name": "snakes-on-chain",
-  "version": "1.00",
+  "version": "1.01",
   "description": "interactive nft demo",
   "main": "index.js",
-  "author": "Martin Kainzbauer <m.kainzbauer@deptagency.com>",
+  "author": "xtools <https://github.com/xtools-at>",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -13,15 +13,15 @@
     "images": "node ./scripts/generateImages.js"
   },
   "engines": {
-    "node": ">=16.13.1",
-    "yarn": "^1.22.5"
+    "node": ">=18.12.1",
+    "yarn": "^1.22.19"
   },
   "dependencies": {
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "express": "^4.18.1",
-    "helmet": "^5.1.1",
+    "helmet": "^7.0.0",
     "memory-cache": "^0.2.0"
   },
   "devDependencies": {
