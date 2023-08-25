@@ -10,7 +10,7 @@ A research project for generating and running interactive NFTs.
 ## Quickstart
 - run `yarn`
 - update `src/config.js` with your own values
-- add your own icons (`public/favicons.ico`, `public/img/icon.svg`, `public/img/icon.png`)
+- add your own icons (`public/favicon.ico`, `public/img/icon.png`)
 - add your NFT's attribute schema in `src/nftAttributes.js` (see comments in file)
 - generate attribute metadata JSON (`yarn meta [from ID] [to ID]` or `yarn meta 2,4,8,16`)
   - review it and tweak it to your liking

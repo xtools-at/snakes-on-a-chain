@@ -15,7 +15,7 @@
     "lint:sol": "solhint --config ./.solhint.json --max-warnings 0 \"contracts/**/*.sol\"",
     "merge": "yarn sol-merger --export-plugin SPDXLicenseRemovePlugin \"./contracts/*.sol\" ./artifacts/contracts/merged"
   },
-  "author": "Martin Kainzbauer <m.kainzbauer@deptagency.com>",
+  "author": "xtools <https://github.com/xtools-at>",
   "license": "MIT",
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
