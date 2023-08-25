@@ -55,7 +55,7 @@ const networks = {
   'beam-testnet': {
     url: `https://subnets.avax.network/beam/testnet/rpc`,
     chainId: 13337,
-    accounts: accounts(),
+    accounts,
   },
 
   /** public mainnets */
@@ -82,21 +82,21 @@ const networks = {
   beam: {
     url: `https://subnets.avax.network/beam/mainnet/rpc`,
     chainId: 4337,
-    accounts: accounts(),
+    accounts,
   },
 };
 
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.9",
+  solidity: "0.8.18",
   settings: {
     metadata: {
       bytecodeHash: "none",
     },
     optimizer: {
       enabled: true,
-      runs: 10000
+      runs: 1000
     },
   },
   gasReporter: {

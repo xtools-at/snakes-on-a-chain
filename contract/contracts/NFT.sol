@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.18;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Royalty.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
@@ -19,7 +19,7 @@ contract NFT is
     // variables
     Counters.Counter private _tokenIdTracker;
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
-
+    string internal _baseUri = "https://snakes.connectednft.art/token/";
 
     /**
      * @dev Constructor
@@ -41,16 +41,7 @@ contract NFT is
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
         _requireMinted(tokenId);
 
-        string memory baseURI = _baseURI();
-        return bytes(baseURI).length > 0 ? string(abi.encodePacked(baseURI, tokenId.toString(), ".json")) : "";
-    }
-
-    /**
-     * @dev See {https://docs.opensea.io/docs/contract-level-metadata} - Contract Metadata URI.
-     */
-    function contractURI() external view virtual returns (string memory) {
-        string memory baseURI = _baseURI();
-        return bytes(baseURI).length > 0 ? string(abi.encodePacked(_baseURI(), "contract.json")) : "";
+        return bytes(_baseUri).length > 0 ? string(abi.encodePacked(_baseUri, tokenId.toString(), ".json")) : "";
     }
 
     /**
@@ -91,6 +82,13 @@ contract NFT is
     }
 
     /**
+     * @dev Set new metadata host.
+     */
+    function setBaseURI(string memory newUri) public virtual onlyRole(DEFAULT_ADMIN_ROLE) {
+        _baseUri = newUri;
+    }
+
+    /**
      * @dev Airdrop / Multi-Mint for different recipients.
      */
     function airdrop(address[] memory recipients) public virtual {
@@ -100,22 +98,22 @@ contract NFT is
     }
 
     /**
-     * @dev Multi-Transfer.
+     * @dev Multi-recipient transfer
      */
-    function transferMulti(address from, address to, uint256[] memory tokenIds) public virtual {
-        for (uint16 i = 0; i < tokenIds.length; i++) {
-            safeTransferFrom(from, to, tokenIds[i], "");
+    function transferMulti(address from, address[] memory recipients, uint256[] memory tokenIds) public virtual {
+        require(recipients.length > 0 && recipients.length == tokenIds.length, "ERC721: input length mismatch");
+
+        for (uint16 i = 0; i < recipients.length; i++) {
+            safeTransferFrom(from, recipients[i], tokenIds[i], "");
         }
     }
 
-
-    /** Internal methods */
-
     /**
-     * @dev Base URI override for computing {tokenURI}. If set, the resulting URI for each
-     * token will be the concatenation of the `baseURI` and the `tokenId`.
+     * @dev Batch-Transfer.
      */
-    function _baseURI() internal view virtual override returns (string memory) {
-        return "https://snakes.connectednft.art/token/";
+    function transferBatch(address from, address to, uint256[] memory tokenIds) public virtual {
+        for (uint16 i = 0; i < tokenIds.length; i++) {
+            safeTransferFrom(from, to, tokenIds[i], "");
+        }
     }
 }
