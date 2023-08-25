@@ -13,8 +13,8 @@
     "images": "node ./scripts/generateImages.js"
   },
   "engines": {
-    "node": ">=18.12.1",
-    "yarn": "^1.22.19"
+    "node": ">=16.13.1",
+    "yarn": "^1.22.5"
   },
   "dependencies": {
     "compression": "^1.7.4",
